@@ -1,8 +1,20 @@
 # What Factors Affect Getting Tickets on Chicago Tollway
 
+# Table of Content
+[TOC]
+
+# Installation
+The libraries/packages used are:
+
+- numpy
+- pandas
+- matplotlib
+- sklearn
+
+# Project Motivation
 The project is part of the [Udacity Data Scientist Nanodegree](https://www.udacity.com/course/data-scientist-nanodegree--nd025) - Term2. It analyzes [Stanford Open Policing Project](https://openpolicing.stanford.edu/) dataset for Chicago Tollway in Illinois State. 
 
-The dataset contains below information (excluding columns that are unable to use due to missing data or messy data):
+The dataset contains below information:
 - Date and time of the stop
 - Demographics information of the driver (race, gender, age)
 - Violation type (speeding, seat belt, license...)
@@ -17,3 +29,18 @@ The questions that I am interested in are:
 - Do gender and race affect whose vehicle is searched?
 - Do time of the day affect search rate?
 - What factors affect getting tickets on Chicago Tollway?
+
+# File Descriptions
+- This notebook `Analyzing Police Stop Data - Chicago Tollway.ipynb` answers the business questions listed above using descriptive analysis and a simple logistic regression model. It follows on lines of Cross-Industry Standard Process for Data Mining (CRISP-DM).
+- The dataset can be downloaded from the [Stanford Open Policing Project Website](https://openpolicing.stanford.edu/data/).
+
+# Results
+The main findings fo the code can be found at the Medium Post available [here](https://medium.com/@sophiaheli/what-factors-affect-getting-tickets-on-chicago-tollway-c0033d042bc7).
+
+# Licensing, Authors, Acknowledgements
+1. License for the data can be found [here](https://openpolicing.stanford.edu/data/).
+2. Credits to https://github.com/paawan01/Titanic_dataset_analysis for the readme template
+3. I used below two references when analyzing my dataset
+- [Analyzing Police Activity with Pandas](https://www.datacamp.com/courses/analyzing-police-activity-with-pandas)
+- [End-to-End Example: Using Logistic Regression for predicting Diabetes](https://www.commonlounge.com/discussion/ba07d359df5b4323a1219a69b6e0b827)
+

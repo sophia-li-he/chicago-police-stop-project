@@ -1,8 +1,5 @@
 # What Factors Affect Getting Tickets on Chicago Tollway
 
-# Table of Content
-[TOC]
-
 # Installation
 The libraries/packages used are:
 
@@ -40,7 +37,7 @@ The main findings fo the code can be found at the Medium Post available [here](h
 # Licensing, Authors, Acknowledgements
 1. License for the data can be found [here](https://openpolicing.stanford.edu/data/).
 2. Credits to https://github.com/paawan01/Titanic_dataset_analysis for the readme template
-3. I used below two references when analyzing my dataset
+3. I used below two references when analyzing the dataset
 - [Analyzing Police Activity with Pandas](https://www.datacamp.com/courses/analyzing-police-activity-with-pandas)
 - [End-to-End Example: Using Logistic Regression for predicting Diabetes](https://www.commonlounge.com/discussion/ba07d359df5b4323a1219a69b6e0b827)
 
